@@ -5,6 +5,7 @@
 }
 body {
   font-family: sans-serif;
+  padding: 135px;
 }
 .container {
   max-width: 1440px;
@@ -384,11 +385,11 @@ button::before {
   right: -5px;
   bottom: -5px;
   border-radius: 5px;
-  border: 3px solid transparent;
   background: linear-gradient(45deg, red, yellow, green, cyan, blue, magenta, red);
   background-size: 400%;
   z-index: -1;
   animation: blockAnimation 5s linear infinite;
+  
 }
 
 @keyframes blockAnimation {
